@@ -9,7 +9,37 @@ enum class Compass {N, S, W, E};
 
 // Write your code here
 class GPS {
+private:
+double latitude;
+Compass latitudeDirection;
+double longitude;
+Compass longitudeDirectiuon;
 
+   public:
+   {
+   double getLatitude();
+    {
+   if ( latitude <=90 || latitude >=0)
+   return latitude;
+   }
+
+   Compass getLatitudeDirection();
+   {
+     if (latitudeDirection = N || latitudeDirection = S)
+     return latitudeDirection;
+   }
+
+   double getLongitude();
+    {
+     if (longitude <=180 || longitude >=0)
+     return longitude;
+   }
+   Compass longitudeDirection();
+   {
+     if (longitudeDirection = W || longitudeDirection = E)
+     return longitudeDirection;
+   }
+   }
 };
 
 //------------------------------
